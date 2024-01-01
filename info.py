@@ -26,14 +26,14 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 BOT_START_TIME = time()
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/3e8a3865af813840144d4.jpg https://telegra.ph/file/abec213a015b543f1d784.jpg https://telegra.ph/file/ae2e7eb577a47fbe0c921.jpg https://telegra.ph/file/2b45e67c1fbd49901c3a0.jpg')).split()
-PICSS = (environ.get('PICSS', 'https://telegra.ph/file/ae31cc5295e22b1670dbe.jpg https://telegra.ph/file/ae31cc5295e22b1670dbe.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/1e61257c01031b93a3116.jpg https://graph.org/file/27fdefa91b6722cb0f544.jpg https://graph.org/file/13fc2536ee8d2c920d519.jpg https://graph.org/file/13fc2536ee8d2c920d519.jpg')).split()
+PICSS = (environ.get('PICSS', 'https://graph.org/file/bc5490a98c703aecca844.jpg https://graph.org/file/bc5490a98c703aecca844.jpg')).split()
 PGIT = (environ.get('PGIT', 'https://telegra.ph/file/c56a52fe52431798a9f15.jpg https://telegra.ph/file/c56a52fe52431798a9f15.jpg')).split()
 PSTS = (environ.get('PSTS', 'https://graph.org/file/28efd47308b1e617713be.jpg https://graph.org/file/28efd47308b1e617713be.jpg')).split()
-NOR_IMG = "https://telegra.ph/file/7ac64ed8c578d45eeb4a7.jpg"
-NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/ae31cc5295e22b1670dbe.jpg")
+NOR_IMG = "https://graph.org/file/bc5490a98c703aecca844.jpg"
+NEWGRP = environ.get("NEWGRP", "https://graph.org/file/1e61257c01031b93a3116.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/04da64bd21e434e5cdf9e.mp4")
-SASI_U = environ.get("SASI_U", "https://telegra.ph/file/ac524f66eec140ec69db5.jpg") 
+SASI_U = environ.get("SASI_U", "https://graph.org/file/28efd47308b1e617713be.jpg") 
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
