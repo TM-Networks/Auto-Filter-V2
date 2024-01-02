@@ -82,7 +82,7 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text("<b>എന്നോട് പറഞ്ഞിട്ട് കാര്യം ഇല്ല.. 🥲 ഗ്രൂപ്പിൽ ചോദിക്ക് 😜 \nᴀꜱᴋ ɪɴ ᴍʏ ɢʀᴏᴜᴘ 🙃👇🏻</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(" 𝆺𝅥⃝CinemaXpress™ ", url=f"https://t.me/+QOsnbXicrFlhOWE1")]])
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Movies_Workshop™ ", url=f"https://t.me/Movies_Workshop")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
@@ -307,7 +307,7 @@ async def advantage_spoll_choker(bot, query):
     movie = movies[(int(movie_))]
     temp_name = movie.replace(" ", "+")
     button = [[
-        InlineKeyboardButton('🍂ᴇᴠᴀ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🕊️', url=f"https://t.me/EvaSprt")   
+        InlineKeyboardButton('🍂ᴇᴠᴀ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🕊️', url=f"https://t.me/+VOTnmaP0YCg0YzZl")   
     ]]
     await query.message.edit(
         text=script.TOP_ALRT_MSG
