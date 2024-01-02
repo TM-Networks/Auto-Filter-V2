@@ -1288,11 +1288,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🍒 MAIN CHANNEL', url='https://t.me/Movies_Workshop')
         ], [
-            InlineKeyboardButton('📮 WEB SERIES CHANNEL', url='https://t.me/CxMaxTg'),
-            InlineKeyboardButton('📮 DUBBED MOVIES', url='https://t.me/CxMaxxx')
+            InlineKeyboardButton('📮 WEB SERIES CHANNEL', url='https://t.me/+Egws6YufZQkxYmZl'),
+            InlineKeyboardButton('📮 DUBBED MOVIES', url='https://t.me/+Clje-HZtkEYwNDJl')
         ], [
-            InlineKeyboardButton('💌 ɢʀᴏᴜᴘ 𝟷', url='https://t.me/CinemaXpressTM'),
-            InlineKeyboardButton('💌 ɢʀᴏᴜᴘ 𝟸', url='https://t.me/CinemaBasar')
+            InlineKeyboardButton('💌 ɢʀᴏᴜᴘ 𝟷', url='https://t.me/Moviezs_Store'),
+            InlineKeyboardButton('💌 ɢʀᴏᴜᴘ 𝟸', url='https://t.me/Movies_Workshop')
         ], [
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start')         
         ]]
@@ -1313,7 +1313,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="● ● ●"
         )
         await query.message.edit_text(
-            text='<b>💌 Jᴏɪɴ ᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ᴄᴏᴍᴍᴜɴɪᴛʏ \n\n❤️🎬 Tʜᴀɴᴋ ʏᴏᴜ ᴀʟʟ ғᴏʀ ʏᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ \n\n🌐 CɪɴᴇᴍᴀXᴘʀᴇꜱꜱ 🌐</b>',
+            text='<b>💌 Jᴏɪɴ ᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ᴄᴏᴍᴍᴜɴɪᴛʏ \n\n❤️🎬 Tʜᴀɴᴋ ʏᴏᴜ ᴀʟʟ ғᴏʀ ʏᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ \n\n🌐 Moviezs_Store 🌐</b>',
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
@@ -1321,7 +1321,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
         buttons = [[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('✧ ᴄᴏɴᴛᴀᴄᴛ​', url='t.me/sachuTGx')
+            InlineKeyboardButton('✧ ᴄᴏɴᴛᴀᴄᴛ​', url='t.me/Moviezs_Store')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1345,7 +1345,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "money_bot":
         buttons = [[
-            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ sᴜᴘᴘᴏʀᴛ', url='https://t.me/EvaSprt')
+            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ sᴜᴘᴘᴏʀᴛ', url='https://t.me/+VOTnmaP0YCg0YzZl')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ ⊝', callback_data='close_data')
