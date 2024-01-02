@@ -2076,7 +2076,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>┏ 💌 αѕκє∂ ϐγ:- <a href='tg://need_update_for_some_feature'>{message.from_user.mention}</a>\n┣ 🍷 τιτℓє :- <a href='https://t.me/CxBotZ'>{search}</a>\n┗ 📁 ƒιℓєѕ : ​<a href='https://t.me/CinemaXpressTM'>{total_results}​</a>\n\n★ ροωєяє∂ ϐγ :<a href='https://t.me/CxMaxTg'>CɪɴᴇᴍᴀXᴘʀᴇꜱꜱ</a></b>"
+        cap = f"<b>┏ 💌 ASKED BY:- <a href='tg://need_update_for_some_feature'>{message.from_user.mention}</a>\n┣ 🍷 TITLE :- <a href='https://t.me/Moviezs_Store'>{search}</a>\n┗ 📁 FILES: ​<a href='https://t.me/Moviezs_Store'>{total_results}​</a>\n\n★ POWERED BY:<a href='https://t.me/Movies_Workshop'>Movies_Workshop</a></b>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
@@ -2149,7 +2149,7 @@ async def advantage_spell_chok(client, msg):
         logger.exception(e)
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-        InlineKeyboardButton('🔍 ѕєαяϲн οи gοοgℓє​ 🔎', url=f"https://www.google.com/search?q={reqst_gle}")            
+        InlineKeyboardButton('🔍 SEARCH ON GOOGLE ​ 🔎', url=f"https://www.google.com/search?q={reqst_gle}")            
         ]]
         await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
         k = await msg.reply_text(
@@ -2165,7 +2165,7 @@ async def advantage_spell_chok(client, msg):
     if not movies:
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-        InlineKeyboardButton('🔍 ѕєαяϲн οи gοοgℓє​ 🔎', url=f"https://www.google.com/search?q={reqst_gle}")   
+        InlineKeyboardButton('🔍 SEARCH ON GOOGLE  🔎', url=f"https://www.google.com/search?q={reqst_gle}")   
         ]]
         await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
         k = await msg.reply_text(
