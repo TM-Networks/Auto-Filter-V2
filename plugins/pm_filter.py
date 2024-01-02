@@ -745,7 +745,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
             else:
                 if button_data in CLICK and CLICK[button_data] >= max_clicks:
-                    await query.answer("ϐяο ϲℓιϲκ οи τнє ϐοττοм яιgнτ мєиτιοи ϐυττοи 💕\n\nതാഴെ വലതുഭാഗത് ഒരു മെൻഷൻ ലിങ്ക് ഉണ്ട് അതിൽ ക്ലിക്ക് ചെയ്യുക 💕", show_alert=True)
+                    await query.answer("BRO CLICK ON THE BOTTOM RIGHT MENTION BUTTON  💕\n\nതാഴെ വലതുഭാഗത് ഒരു മെൻഷൻ ലിങ്ക് ഉണ്ട് അതിൽ ക്ലിക്ക് ചെയ്യുക 💕", show_alert=True)
                     return
                 mh = await client.send_cached_media(
                     chat_id=int(FILE_CHANNEL),
@@ -755,10 +755,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(
                         [[ 
                           InlineKeyboardButton('⚠️ ᴍᴀʟ', callback_data='malayalam'),
-                          InlineKeyboardButton('⚠️ ʜɪɴ', callback_data='hindi'),
+                          InlineKeyboardButton('⚠️ ENG', callback_data='hindi'),
                           InlineKeyboardButton('⚠️ ᴛᴀᴍ', callback_data='tamil')
                         ],[
-                          InlineKeyboardButton("мαιи ϲнαииєℓ", url='t.me/CxMaxTG')
+                          InlineKeyboardButton("MAIN CHANNEL", url='t.me/CxMaxTG')
                         ]] 
                     )
                 )
