@@ -758,7 +758,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                           InlineKeyboardButton('⚠️ ENG', callback_data='hindi'),
                           InlineKeyboardButton('⚠️ ᴛᴀᴍ', callback_data='tamil')
                         ],[
-                          InlineKeyboardButton("MAIN CHANNEL", url='t.me/CxMaxTG')
+                          InlineKeyboardButton("MAIN CHANNEL", url='https://t.me/Movies_Workshop')
                         ]] 
                     )
                 )
@@ -769,7 +769,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📥 ∂οωиℓοα∂ иοω 📥", url=f"{mh.link}")
+                            InlineKeyboardButton("📥 DOWNLOAD NOW 📥", url=f"{mh.link}")
                         ]
                     ]
                 )
@@ -826,7 +826,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton("мαιи ϲнαииєℓ", url='t.me/CxMaxTG')
+                  InlineKeyboardButton("MAIN CHANNEL", url='https://t.me/Movies_Workshop')
                  ]
                 ]
             )
@@ -1286,10 +1286,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
  
     elif query.data == "support":
         buttons = [[
-            InlineKeyboardButton('🍒 ʙᴏᴛꜱ', url='https://t.me/CxBotZ/2')
+            InlineKeyboardButton('🍒 MAIN CHANNEL', url='https://t.me/Movies_Workshop')
         ], [
-            InlineKeyboardButton('📮 ᴄʜᴀɴɴᴇʟ 𝟷', url='https://t.me/CxMaxTg'),
-            InlineKeyboardButton('📮 ᴄʜᴀɴɴᴇʟ 𝟸', url='https://t.me/CxMaxxx')
+            InlineKeyboardButton('📮 WEB SERIES CHANNEL', url='https://t.me/CxMaxTg'),
+            InlineKeyboardButton('📮 DUBBED MOVIES', url='https://t.me/CxMaxxx')
         ], [
             InlineKeyboardButton('💌 ɢʀᴏᴜᴘ 𝟷', url='https://t.me/CinemaXpressTM'),
             InlineKeyboardButton('💌 ɢʀᴏᴜᴘ 𝟸', url='https://t.me/CinemaBasar')
