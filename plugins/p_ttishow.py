@@ -45,8 +45,8 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('📣 ѕυρροяτ', url='https://t.me/CxBotZ'),
-                    InlineKeyboardButton('❓ ϐοτz υρ∂ατєѕ', url=f"https://t.me/EvaSprt")
+                    InlineKeyboardButton('📣 ѕυρροяτ', url='https://t.me/+VOTnmaP0YCg0YzZl'),
+                    InlineKeyboardButton('❓ ϐοτz υρ∂ατєѕ', url=f"https://t.me/+VOTnmaP0YCg0YzZl")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -67,7 +67,7 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                             InlineKeyboardButton('🍁 sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ​ 🍁', url='https://t.me/EvaSprt')
+                                                                             InlineKeyboardButton('🍁 sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ​ 🍁', url='https://t.me/+VOTnmaP0YCg0YzZl')
                                                                         
                                                                         ]]
                                                  ),
