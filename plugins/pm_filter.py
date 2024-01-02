@@ -81,8 +81,8 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text("<b>എന്നോട് പറഞ്ഞിട്ട് കാര്യം ഇല്ല.. 🥲 ഗ്രൂപ്പിൽ ചോദിക്ക് 😜 \nᴀꜱᴋ ɪɴ ᴍʏ ɢʀᴏᴜᴘ 🙃👇🏻</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Movies_Workshop™ ", url=f"https://t.me/Movies_Workshop")]])
+    await message.reply_text("<b>Iᴛ's ᴏᴋᴀʏ ᴛᴏ ᴛᴇʟʟ ᴍᴇ.. Asᴋ ɪɴ ᴛʜᴇ ɢrᴏᴜᴘ 😜 \nᴀꜱᴋ ɪɴ ᴍʏ ɢʀᴏᴜᴘ 🙃👇🏻</b>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Mᴏᴠɪᴇs Wᴏrᴋsʜᴏᴘ™ ", url=f"https://t.me/Movies_Workshop")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
@@ -745,7 +745,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
             else:
                 if button_data in CLICK and CLICK[button_data] >= max_clicks:
-                    await query.answer("BRO CLICK ON THE BOTTOM RIGHT MENTION BUTTON  💕\n\nതാഴെ വലതുഭാഗത് ഒരു മെൻഷൻ ലിങ്ക് ഉണ്ട് അതിൽ ക്ലിക്ക് ചെയ്യുക 💕", show_alert=True)
+                    await query.answer("BRO CₗICK ON THE BOTTOM RIGHT MENTION BUTTON  💕\n\nതാഴെ വലതുഭാഗത് ഒരു മെൻഷൻ ലിങ്ക് ഉണ്ട് അതിൽ ക്ലിക്ക് ചെയ്യുക 💕", show_alert=True)
                     return
                 mh = await client.send_cached_media(
                     chat_id=int(FILE_CHANNEL),
@@ -769,7 +769,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📥 DOWNLOAD NOW 📥", url=f"{mh.link}")
+                            InlineKeyboardButton("📥 DOWNₗOAD NOW 📥", url=f"{mh.link}")
                         ]
                     ]
                 )
@@ -2076,7 +2076,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>┏ 💌 ASKED BY:- <a href='tg://need_update_for_some_feature'>{message.from_user.mention}</a>\n┣ 🍷 TITLE :- <a href='https://t.me/Moviezs_Store'>{search}</a>\n┗ 📁 FILES: ​<a href='https://t.me/Moviezs_Store'>{total_results}​</a>\n\n★ POWERED BY:<a href='https://t.me/Movies_Workshop'>Movies_Workshop</a></b>"
+        cap = f"<b>┏ 💌 ᴀsᴋᴇD Bʏ:- <a href='tg://need_update_for_some_feature'>{message.from_user.mention}</a>\n┣ 🍷 Tɪᴛʟᴇ:- <a href='https://t.me/Moviezs_Store'>{search}</a>\n┗ 📁 Fɪʟᴇs: ​<a href='https://t.me/Moviezs_Store'>{total_results}​</a>\n\n★PᴏᴡᴇRᴇD Bʏ:<a href='https://t.me/Movies_Workshop'>Movies_Workshop</a></b>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
@@ -2149,7 +2149,7 @@ async def advantage_spell_chok(client, msg):
         logger.exception(e)
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-        InlineKeyboardButton('🔍 SEARCH ON GOOGLE ​ 🔎', url=f"https://www.google.com/search?q={reqst_gle}")            
+        InlineKeyboardButton('🔍 SEARCH ON GOOGLE 🔎', url=f"https://www.google.com/search?q={reqst_gle}")            
         ]]
         await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
         k = await msg.reply_text(
